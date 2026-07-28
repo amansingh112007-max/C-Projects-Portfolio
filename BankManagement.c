@@ -146,7 +146,7 @@ void account(void) {
     scanf("%49s", u1.username);
 
     printf("PASSWORD........: ");
-    // Secure masked password input
+    // Secure masked password input.
     while (1) {
         ch = getch();
         if (ch == 13 || ch == 10) { // Enter key
