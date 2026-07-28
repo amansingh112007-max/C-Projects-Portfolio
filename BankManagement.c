@@ -317,7 +317,7 @@ void display(char username1[]) {
     gotoxy(45, 21);
     printf("ACCOUNT TYPE....: %s", u1.typeaccount);
 
-    // Left Navigation Menu
+    // Left Navigation Menu.
     gotoxy(0, 4);
     printf(" HOME MENU ");
     gotoxy(0, 5);
