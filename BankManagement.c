@@ -183,7 +183,7 @@ void accountcreated(void) {
     login();
 }
 
-// Handles user authentication
+// Handles user authentication.
 void login(void) {
     system("cls");
 
