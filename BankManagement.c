@@ -161,7 +161,7 @@ void account(void) {
         }
     }
 
-    // Append account record to storage
+    // Append account record to storage.
     fwrite(&u1, sizeof(u1), 1, fp);
     fclose(fp);
 
