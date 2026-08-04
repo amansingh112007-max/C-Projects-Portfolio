@@ -43,7 +43,7 @@ struct money {
     long int moneyl;
 };
 
-// Structure to store simple user authentication credentials.
+// Structure to store simple user authentication credentials
 struct userpass {
     char password[50];
 };
