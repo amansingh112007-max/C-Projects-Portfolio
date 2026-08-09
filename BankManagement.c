@@ -69,7 +69,7 @@ int main() {
         gotoxy(20, 17);
         printf("ENTER YOUR CHOICE: ");
         if (scanf("%d", &choice) != 1) {
-            // Flush invalid input buffer
+            // Flush invalid input buffer.
             while (getchar() != '\n');
             continue;
         }
