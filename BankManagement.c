@@ -168,7 +168,7 @@ void account(void) {
     accountcreated();
 }
 
-// Splash notification for successful registration.
+// Splash notification for successful registration
 void accountcreated(void) {
     long int i;
     system("cls");
