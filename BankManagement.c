@@ -490,7 +490,7 @@ void checkbalance(char username2[]) {
     display(username2);
 }
 
-// Handles user sign-out operation
+// Handles user sign-out operation.
 void logout(void) {
     long int i, j;
     system("cls");
