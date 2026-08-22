@@ -253,7 +253,7 @@ void login(void) {
     }
 }
 
-// Splash notification for login success.
+// Splash notification for login success
 void loginsu(void) {
     long int i;
     system("cls");
