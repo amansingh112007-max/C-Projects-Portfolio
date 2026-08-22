@@ -232,7 +232,7 @@ void login(void) {
         }
     }
 
-    // Verify record from database file.
+    // Verify record from database file
     while (fread(&u1, sizeof(u1), 1, fp)) {
         if (strcmp(username, u1.username) == 0) {
             found = 1;
