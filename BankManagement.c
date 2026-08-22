@@ -91,7 +91,7 @@ int main() {
     return 0;
 }
 
-// Function to create new bank accounts.
+// Function to create new bank accounts
 void account(void) {
     char password[50];
     int i = 0;
