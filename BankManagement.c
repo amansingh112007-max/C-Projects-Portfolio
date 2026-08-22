@@ -267,7 +267,7 @@ void loginsu(void) {
     getch();
 }
 
-// Main user Dashboard.
+// Main user Dashboard
 void display(char username1[]) {
     system("cls");
     FILE *fp;
