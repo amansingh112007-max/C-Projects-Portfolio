@@ -152,7 +152,7 @@ void account(void) {
         if (ch == 13 || ch == 10) { // Enter key
             password[i] = '\0';
             break;
-        } else if (ch == 8 && i > 0) { // Backspace support
+        } else if (ch == 8 && i > 0) { // Backspace support.
             i--;
             printf("\b \b");
         } else if (ch != 8 && i < 49) {
