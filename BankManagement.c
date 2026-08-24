@@ -149,7 +149,7 @@ void account(void) {
     // Secure masked password input
     while (1) {
         ch = getch();
-        if (ch == 13 || ch == 10) { // Enter key
+        if (ch == 13 || ch == 10) { // Enter key.
             password[i] = '\0';
             break;
         } else if (ch == 8 && i > 0) { // Backspace support.
