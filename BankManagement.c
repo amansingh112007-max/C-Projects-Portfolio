@@ -48,7 +48,7 @@ struct userpass {
     char password[50];
 };
 
-// Main Driver Code
+// Main Driver Code.
 int main() {
     int choice;
 
