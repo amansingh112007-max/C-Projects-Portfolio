@@ -36,7 +36,7 @@ struct pass {
     char typeaccount[20];
 };
 
-// Structure to store transaction history
+// Structure to store transaction history.
 struct money {
     char usernameto[50];
     char userpersonfrom[50];
