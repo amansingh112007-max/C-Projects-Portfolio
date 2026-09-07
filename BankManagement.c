@@ -22,7 +22,7 @@ void gotoxy(int x, int y) {
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), c);
 }
 
-// Structure to store complete user personal details.
+// Structure to store complete user personal details
 struct pass {
     char username[50];
     int date, month, year;
