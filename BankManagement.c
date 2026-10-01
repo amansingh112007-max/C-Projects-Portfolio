@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <windows.h>
 
-// Function Declarations
+// Function Declarations.
 void checkbalance(char username2[]);
 void transfermoney(void);
 void display(char username1[]);
