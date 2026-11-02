@@ -14,7 +14,7 @@ void account(void);
 void accountcreated(void);
 void logout(void);
 
-// Function to set cursor position in console output.
+// Function to set cursor position in console output
 void gotoxy(int x, int y) {
     COORD c;
     c.X = x;
